@@ -1,0 +1,59 @@
+/* ── Player Bar — heart & add-to-playlist buttons ── */
+
+.player-lib-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.player-lib-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1;
+}
+
+.player-lib-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Heart button */
+.player-lib-btn.heart {
+  color: rgba(255, 107, 107, 0.6);
+}
+.player-lib-btn.heart:hover {
+  color: #ff6b6b;
+  border-color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.12);
+}
+.player-lib-btn.heart.hearted {
+  color: #ff6b6b;
+  border-color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.15);
+}
+
+/* Plus / Add-to-playlist button */
+.player-lib-btn.add {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(29, 185, 84, 0.7);
+  border-color: rgba(29, 185, 84, 0.3);
+}
+.player-lib-btn.add:hover {
+  color: #1db954;
+  border-color: #1db954;
+  background: rgba(29, 185, 84, 0.12);
+}
