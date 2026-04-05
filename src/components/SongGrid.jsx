@@ -1,7 +1,7 @@
 import SongCard from './SongCard'
 import { formatCount } from '../utils/formatters'
 
-export default function SongGrid({
+function SongGrid({
   songs,
   searchTotal,
   currentSong,
@@ -37,3 +37,4 @@ export default function SongGrid({
     </div>
   )
 }
+export default SongGrid

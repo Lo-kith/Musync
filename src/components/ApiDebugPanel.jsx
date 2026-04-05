@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function ApiDebugPanel({ requestUrl, rawResponse }) {
+function ApiDebugPanel({ requestUrl, rawResponse }) {
   const [showResponse, setShowResponse] = useState(false)
 
   if (!requestUrl) return null
@@ -32,3 +32,4 @@ export default function ApiDebugPanel({ requestUrl, rawResponse }) {
     </>
   )
 }
+export default ApiDebugPanel

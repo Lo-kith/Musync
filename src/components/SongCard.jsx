@@ -1,6 +1,6 @@
 import { getImage, getArtists, formatDuration, formatCount } from '../utils/formatters'
 
-export default function SongCard({
+function SongCard({
   song,
   isActive,
   isPlaying,
@@ -67,3 +67,4 @@ export default function SongCard({
     </div>
   )
 }
+export default SongCard

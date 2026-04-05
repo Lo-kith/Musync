@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 
-export default function AuthModal({ onClose }) {
+function AuthModal({ onClose }) {
   const { login, signup, authError, setAuthError } = useAuth()
   const [mode, setMode] = useState('login') // 'login' | 'signup'
   const [email, setEmail] = useState('')
@@ -105,3 +105,4 @@ export default function AuthModal({ onClose }) {
     </div>
   )
 }
+export default AuthModal

@@ -1,6 +1,6 @@
 import { getImage, getArtists, formatDuration } from '../utils/formatters'
 
-export default function PlayerBar({
+ function PlayerBar({
   currentSong,
   isPlaying,
   progress,
@@ -118,3 +118,5 @@ export default function PlayerBar({
     </div>
   )
 }
+
+export default PlayerBar

@@ -15,7 +15,7 @@ function SongRow({ song, onPlay, onRemove, removeLabel = '✕' }) {
   )
 }
 
-export default function LibrarySidebar({
+function LibrarySidebar({
   isOpen,
   onClose,
   favorites,
@@ -201,3 +201,4 @@ export default function LibrarySidebar({
     </>
   )
 }
+export default LibrarySidebar

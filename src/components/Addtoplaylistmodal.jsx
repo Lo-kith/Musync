@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function AddToPlaylistModal({ song, playlists, onAdd, onCreate, onClose }) {
+ function AddToPlaylistModal({ song, playlists, onAdd, onCreate, onClose }) {
   const [newName, setNewName] = useState('')
   const [creating, setCreating] = useState(false)
 
@@ -62,3 +62,4 @@ export default function AddToPlaylistModal({ song, playlists, onAdd, onCreate, o
     </div>
   )
 }
+export default AddToPlaylistModal

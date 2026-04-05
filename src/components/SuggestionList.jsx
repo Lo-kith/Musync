@@ -16,7 +16,7 @@ function SuggestionItem({ song, isActive, onClick }) {
   )
 }
 
-export default function SuggestionList({ suggestions, currentSong, onPlay }) {
+function SuggestionList({ suggestions, currentSong, onPlay }) {
   if (!suggestions.length || !currentSong) return null
 
   return (
@@ -42,3 +42,4 @@ export default function SuggestionList({ suggestions, currentSong, onPlay }) {
     </div>
   )
 }
+export default SuggestionList

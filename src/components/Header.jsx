@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { useAuth } from '../context/AuthContext'
 
-export default function Header({ onLoginClick, onLibraryClick }) {
+ function Header({ onLoginClick, onLibraryClick }) {
   const { user, logout } = useAuth()
   const [menuOpen, setMenuOpen] = useState(false)
   const menuRef = useRef(null)
@@ -74,3 +74,4 @@ export default function Header({ onLoginClick, onLibraryClick }) {
     </header>
   )
 }
+export default Header

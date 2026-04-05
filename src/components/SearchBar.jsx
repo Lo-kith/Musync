@@ -1,4 +1,4 @@
-export default function SearchBar({ query, setQuery, onSubmit, loading }) {
+function SearchBar({ query, setQuery, onSubmit, loading }) {
   return (
     <form className="search-form" onSubmit={onSubmit}>
       <div className="search-box">
@@ -26,3 +26,4 @@ export default function SearchBar({ query, setQuery, onSubmit, loading }) {
     </form>
   )
 }
+export default SearchBar

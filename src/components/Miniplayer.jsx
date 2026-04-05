@@ -1,6 +1,6 @@
 import { getImage, getArtists, formatDuration } from '../utils/formatters'
 
-export default function MiniPlayer({
+function MiniPlayer({
   currentSong,
   isPlaying,
   progress,
@@ -80,3 +80,4 @@ export default function MiniPlayer({
     </div>
   )
 }
+export default MiniPlayer
