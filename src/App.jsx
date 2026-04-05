@@ -7,11 +7,12 @@ import { AuthProvider } from './context/AuthContext'
 import { useAuth } from './context/AuthContext'
 
 // Hooks
-import { useSearch } from './hooks/UseSearch.jsx'
-import { usePlayer } from './hooks/UsePlayer.jsx'
-import { useSuggestions } from './hooks/UseSuggestions.jsx'
-import { useLibrary } from './hooks/UseLibrary.jsx'
-import { useMiniPlayer } from './hooks/UseMiniPlayer.jsx'
+// Hooks
+import { useSearch } from './hooks/useSearch'
+import { usePlayer } from './hooks/usePlayer'
+import { useSuggestions } from './hooks/useSuggestions'
+import { useLibrary } from './hooks/useLibrary'
+import { useMiniPlayer } from './hooks/useMiniPlayer'
 
 // Components
 import Header from './components/Header'
