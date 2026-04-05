@@ -7,16 +7,15 @@ import { AuthProvider } from './context/AuthContext'
 import { useAuth } from './context/AuthContext'
 
 // Hooks
-import { useSearch } from './hooks/useSearch'
-import { usePlayer } from './hooks/usePlayer'
-import { useSuggestions } from './hooks/useSuggestions'
-import { useLibrary } from './hooks/useLibrary'
-import { useMiniPlayer } from './hooks/useMiniPlayer'
+import { useSearch } from './hooks/UseSearch'
+import { usePlayer } from './hooks/UsePlayer'
+import { useSuggestions } from './hooks/UseSuggestions'
+import { useLibrary } from './hooks/UseLibrary'
+import { useMiniPlayer } from './hooks/UseMiniPlayer'
 
 // Components
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
-import ApiDebugPanel from './components/ApiDebugPanel'
 import SongGrid from './components/SongGrid'
 import SuggestionList from './components/SuggestionList'
 import PlayerBar from './components/PlayerBar'
