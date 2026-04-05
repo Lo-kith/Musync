@@ -10,7 +10,7 @@ import { useSearch } from './hooks/useSearch'
 import { usePlayer } from './hooks/usePlayer'
 import { useSuggestions } from './hooks/useSuggestions'
 import { useLibrary } from './hooks/useLibrary'
-import { useMiniPlayer } from './hooks/useMiniplayer'
+import { useMiniPlayer } from './hooks/useMiniPlayer'
 // Components
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
