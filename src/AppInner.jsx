@@ -6,13 +6,11 @@ import './features.css'
 import { useAuth } from './context/AuthContext'
 
 // Hooks
-// Hooks
 import { useSearch } from './hooks/useSearch'
 import { usePlayer } from './hooks/usePlayer'
 import { useSuggestions } from './hooks/useSuggestions'
 import { useLibrary } from './hooks/useLibrary'
-import { useMiniPlayer } from './hooks/useMiniPlayer'
-
+import { useMiniPlayer } from './hooks/useMiniplayer'
 // Components
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
