@@ -1,4 +1,4 @@
-const API_URL = "https://musyncbackend-7.onrender.com"
+const API_URL = "https://musyncbackend-7.onrender.com/api"
 
 export async function searchSongs(query, limit = 8) {
   const url = `${API_URL}/search/songs?query=${encodeURIComponent(query)}&limit=${limit}`
